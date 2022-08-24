@@ -1,10 +1,178 @@
 {
-	"products": [
-		{
-			"name": "thing"
-		},
-		{
-			"name": "another thing"
-		}
-	]
+  "products": [
+    {
+      "id": 1,
+      "name": "product1",
+      "brand": "brand1",
+      "stock": 11,
+      "price": 11.11
+    },
+    {
+      "id": 2,
+      "name": "product2",
+      "brand": "brand2",
+      "stock": 9,
+      "price": 99.95
+    },
+    {
+      "id": 3,
+      "name": "product3",
+      "brand": "brand3",
+      "stock": 93,
+      "price": 1000.0
+    },
+    {
+      "id": 4,
+      "name": "product4",
+      "brand": "brand4",
+      "stock": 44,
+      "price": 12.0
+    },
+    {
+      "id": 5,
+      "name": "product5",
+      "brand": "brand5",
+      "stock": 648,
+      "price": 4563.0
+    },
+    {
+      "id": 6,
+      "name": "product6",
+      "brand": "brand6",
+      "stock": 45,
+      "price": 43.0
+    },
+    {
+      "id": 7,
+      "name": "product7",
+      "brand": "brand7",
+      "stock": 1,
+      "price": 54.0
+    },
+    {
+      "id": 8,
+      "name": "product8",
+      "brand": "brand8",
+      "stock": 452,
+      "price": 99.95
+    },
+    {
+      "id": 9,
+      "name": "product9",
+      "brand": "brand9",
+      "stock": 78,
+      "price": 931.0
+    },
+    {
+      "id": 10,
+      "name": "product10",
+      "brand": "brand10",
+      "stock": 2,
+      "price": 66.0
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 5,
+      "products": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customerId": 4,
+      "products": [
+        {
+          "id": 3,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "products": [
+        {
+          "id": 5,
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customerId": 2,
+      "products": [
+        {
+          "id": 7,
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": 1,
+      "products": [
+        {
+          "id": 9,
+          "quantity": 1
+        },
+        {
+          "id": 10,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "customer1",
+      "address": "address1",
+      "phone": "phone1"
+    },
+    {
+      "id": 2,
+      "name": "customer2",
+      "address": "address2",
+      "phone": "phone2"
+    },
+    {
+      "id": 3,
+      "name": "customer3",
+      "address": "address3",
+      "phone": "phone3"
+    },
+    {
+      "id": 4,
+      "name": "customer4",
+      "address": "address4",
+      "phone": "phone4"
+    },
+    {
+      "id": 5,
+      "name": "customer5",
+      "address": "address5",
+      "phone": "phone5"
+    }
+  ]
 }
