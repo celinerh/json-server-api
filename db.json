@@ -84,7 +84,9 @@
   "orders": [
     {
       "id": 1,
+      "date": "2020-01-01",
       "customerId": 5,
+      "status": "shipped",
       "products": [
         {
           "id": 1,
@@ -98,7 +100,9 @@
     },
     {
       "id": 2,
+      "date": "2020-01-02",
       "customerId": 4,
+      "status": "shipped",
       "products": [
         {
           "id": 3,
@@ -112,7 +116,9 @@
     },
     {
       "id": 3,
+      "date": "2020-01-03",
       "customerId": 3,
+      "status": "cancelled",
       "products": [
         {
           "id": 5,
@@ -126,7 +132,9 @@
     },
     {
       "id": 4,
+      "date": "2020-01-04",
       "customerId": 2,
+      "status": "new",
       "products": [
         {
           "id": 7,
@@ -140,7 +148,9 @@
     },
     {
       "id": 5,
+      "date": "2020-01-05",
       "customerId": 1,
+      "status": "new",
       "products": [
         {
           "id": 9,
@@ -158,31 +168,41 @@
       "id": 1,
       "name": "customer1",
       "address": "address1",
-      "phone": "phone1"
+      "email": "email1",
+      "phone": "phone1",
+      "marketing": true
     },
     {
       "id": 2,
       "name": "customer2",
       "address": "address2",
-      "phone": "phone2"
+      "email": "email2",
+      "phone": "phone2",
+      "marketing": false
     },
     {
       "id": 3,
       "name": "customer3",
       "address": "address3",
-      "phone": "phone3"
+      "email": "email3",
+      "phone": "phone3",
+      "marketing": true
     },
     {
       "id": 4,
       "name": "customer4",
       "address": "address4",
-      "phone": "phone4"
+      "email": "email4",
+      "phone": "phone4",
+      "marketing": false
     },
     {
       "id": 5,
       "name": "customer5",
       "address": "address5",
-      "phone": "phone5"
+      "email": "email5",
+      "phone": "phone5",
+      "marketing": true
     }
   ]
 }
